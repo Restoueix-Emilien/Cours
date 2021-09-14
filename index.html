@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>HTML Tutorial</title>
-  </head>
-  
-  <body>
-    <h1>This is a heading</h1>
-    <p>This is a paragraph.</p>
+	<head>
+		<title>Page Title</title>
+	</head>
+    <body>
     
-  </body>
+		<h1
+        title="ceci est une balise de titre de niveau 1"
+        style="color:white;background : green;"
+        onclick="this.style.color = 'orange';" 
+        ondbclick="this.style.color = 'white';"
+        >Définitions</h1>
+    	<h2 onmouseover="this.style.fontSize = '300%'; " onmouseout="this.style.fontSize = '150%';" 
+        >Définitions</h2>
+    	<h3>Définitions</h3>
+    	<h4>Définitions</h4>
+    	<h5>Définitions</h5>
+    	<h6>Définitions</h6>
+        
+		<p>La page affichée est codée par tout le code qui se situe entre &lt;body&gt; et &lt;/body&gt; </p>
+        
+        <h2>Les deux types de balises</h2>
+		<p>Il existe deux types de balises:
+ 		</p>
+		<ol>
+        	<li>les balises usuelles encadrent du code, par exemple : &lt;p&gt; et &lt;/p&gt; </li>
+            <li>Les balises dites orphelines n'encadrent aucun code : elles se ferment elles-mêmes. Par exemple 				: &lt;br/&gt; abréviation de <i>break row;</i></li>
+            <li>Les balises dites orphelines n'encadrent aucun code : elles se ferment elles-mêmes. Par exemple 				: &lt;hr/&gt; abréviation de <i>horizontal row;</i></li>
+            <br/>
+			<hr/>
+        </ol>
+        <br/>
+        <hr/>
+        <h2>TP</h2>
+        <h3>Les balises à tester</h3>
+        <ul>
+     		<li>em</li>
+            <li>b</li>
+            <li>strong</li>
+            <li>u</li>
+            <li>mark</li>
+            <li>del</li>
+            
+        <p><em>em pour italique</em></p>
+		<p><b>b pour gras</b></p>
+        <p><strong>strong pour gras</strong></p>
+        <p><u>u pour souligné</u></p>
+        <p><mark>mark pour surligner</mark></p>
+        <p><del>del pour raillé</del></p>
+        </ul>
+        <details><summary>Paragraphe dépliant</summary>exemple de texte caché</details>
+      
+	</body>
 </html>
